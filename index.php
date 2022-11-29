@@ -18,7 +18,7 @@
       <div class="col-sm-12">
         <div class="panel panel-danger">
           <div class="panel-heading">Online quiz system with PHP and MySQL</div>
-          <div class="panel-body">Quiz</div>
+          <div class="panel-body">Online Quiz</div>
         </div>
       </div>
     </div>
