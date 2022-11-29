@@ -56,6 +56,7 @@
           </tr>
         </tbody>
       </table>
+      <center><button class="btn btn-info" onclick="window.location.href='./home.php';">Go home</button></center>
     </div>
   </div>
 </center>
