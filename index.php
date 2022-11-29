@@ -1,3 +1,10 @@
+<?php
+  include("class/connection.php");
+  $obj = new Client;
+  if(isset($_SESSION['email'])) {
+    $obj->url('home.php');
+  }
+?>
 <!DOCTYPE html>
 <html lang="en">
 
