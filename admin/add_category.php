@@ -20,7 +20,7 @@
   <link rel="icon" href="https://getbootstrap.com/docs/3.4/favicon.ico">
   <link rel="canonical" href="https://getbootstrap.com/docs/3.4/examples/dashboard/">
 
-  <title>Dashboard</title>
+  <title>Admin Dashboard</title>
 
   <!-- Bootstrap core CSS -->
   <link href="../css/bootstrap.min.css" rel="stylesheet">
