@@ -37,6 +37,16 @@ class Client {
         }
     }
 
+    public function check_super_user() {
+        $email = $_SESSION['email'];
+        $result = $this->conn->query("SELECT is_superuser FROM users WHERE email='$email';");
+        $data = $result->fetch_array(MYSQLI_ASSOC);
+        if ($data['is_superuser'])
+            return True;
+        else
+            return False;
+    }
+
     public function logout() {
         $_SESSION['email'] = null;
         return true;
@@ -103,6 +113,10 @@ class Client {
     public function authenticate(){
         if (!isset($_SESSION['email'])) {
           $this->url('index.php');
+        }
+        else {
+            if ($this->check_super_user())
+                $this->url('admin/overview.php');
         }
     }
 
