@@ -16,10 +16,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script type="text/javascript">
-    history.pushState(null, null, window.location.href);
-    history.back();
-    window.onpopstate = () => history.forward();
-
     var timeLeft = 2 * 60;
     function makeTwoDigits(number) {
       if (number < 10) {
