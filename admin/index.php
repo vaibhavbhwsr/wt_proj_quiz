@@ -54,6 +54,7 @@
             </form>
           </div>
         </div>
+        <center><button class="btn btn-info" onclick="window.location.href='../index.php';">Go home</button></center>
       </div>
       <div class="col-sm-4"></div>
 
