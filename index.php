@@ -85,7 +85,7 @@
                 <input type="password" class="form-control" name="p" id="pwd" placeholder="Enter password">
               </div>
               <div class="form-group">
-                <label for="email">Upload your image:</label>
+                <label for="img">Upload your image:</label>
                 <input type="file" class="form-control" name="img" id="file">
               </div>
               <button type="submit" class="btn btn-default">Sign up</button>
